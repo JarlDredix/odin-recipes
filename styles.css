@@ -9,10 +9,16 @@ body {
     margin: 0%;
 }
 
+img {
+    border-style: solid;
+    border-color: #416a59;
+    border-radius: 50%;  
+}
+
 .recipe-list {
-    margin-top: 40vh;
+    margin-top: 30vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul > li {
